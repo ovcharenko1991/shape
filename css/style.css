@@ -1,0 +1,68 @@
+.posX {
+	width: 300px;
+	text-align: center;
+	display: inline-block;
+}
+.posX .span {
+	display: block;
+}
+span {
+	margin: 0 21%;
+}
+input {
+	position: relative;
+	width: 60%;
+}
+
+.size {
+	width: 150px;
+	text-align: center;
+	display: inline-block;
+}
+
+.opacity {
+	width: 200px;
+	text-align: center;
+	display: inline-block;
+}
+
+.shape {
+	width: 300px;
+	text-align: center;
+	display: inline-block;
+}
+
+.hex {
+	width: 200px;
+	text-align: center;
+	display: inline-block;
+}
+.hex button {
+	display: block;
+	margin: 0 40%;
+}
+.hexRange {
+	display: inline-flex;
+	margin-right: 25px;
+}
+.hexRange input {
+	width: 100px;
+}
+
+.posY {
+	width: 300px;
+	text-align: center;
+	transform: rotate(270deg);
+	margin-top: 10%;
+	margin-left: -3%;
+}
+
+.block {
+	width: 150px;
+	height: 150px;
+	border: 1px solid;
+	position: absolute;
+	left: 15%;
+	top: 30%;
+	border-radius: 0%;
+}

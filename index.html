@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>shape</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="posX">
+		<p>Position X</p>
+		<div class="span">
+			<span>0</span>
+			<span>800</span>
+		</div>
+		<input type="range" class="inputPosX" min="0" max="800" value="0">
+	</div>
+
+    <div class="size">
+		<p>Size</p>
+		<div class="span">
+			<span>0</span>
+			<span>2</span>
+		</div>
+		<input type="range" class="inputSize" min="100" max="200" value="150">
+	</div>
+
+    <div class="opacity">
+		<p>Opacity</p>
+		<div class="span">
+			<span>0</span>
+			<span>1</span>
+		</div>
+		<input type="range" class="inputOpacity" min="0" max="1" step="0.01" value="1">
+	</div>
+
+    <div class="shape">
+		<p>Shape Type</p>
+		<select>
+  			<option value="square">Квадрат</option>
+  			<option value="circle">Коло</option>
+  			<option value="rhomb">Прямокутний ромб</option>
+		</select>
+		<button>OK</button>
+	</div>
+
+    <div class="hex">
+		<input type="text" class="colorHEX" value="HEX">
+
+		<div class="hexRange">
+			<input type="range" class="r" min="0" max="255" value="255">
+			<span>r</span>
+		</div>
+		<div class="hexRange">
+			<input type="range" class="g" min="0" max="255" value="255">
+			<span>g</span>
+		</div>
+		<div class="hexRange">
+			<input type="range" class="b" min="0" max="255" value="255">
+			<span>b</span>
+		</div>
+		<div class="hexRange">
+			<input type="range" class="a" min="0" max="255" value="255">
+			<span>a</span>
+		</div>
+	</div>
+
+	<div class="posY">
+		<p>Position Y</p>
+		<div class="span">
+			<span>0</span>
+			<span>600</span>
+		</div>
+		<input type="range" class="inputPosY" min="0" max="600" value="0">
+	</div>
+
+    <div class="block"></div>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
